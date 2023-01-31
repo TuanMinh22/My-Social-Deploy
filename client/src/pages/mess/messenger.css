@@ -1,0 +1,93 @@
+.messenger {
+  display: flex;
+}
+
+.messengerLeft {
+  flex: 3;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(179, 179, 179);
+}
+
+.messengerLeftTop {
+  display: flex;
+  align-items: center;
+  margin: 10px 20px;
+}
+
+.messengerLogo {
+  flex: 6;
+}
+
+.messengerLeftTopIcons {
+  flex: 4;
+}
+
+.messengerListItems {
+  margin: 0 10px;
+}
+
+.messengerListChatItems {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.messengerItemsImg {
+  width: 20px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex: 3;
+  margin-right: 10px;
+}
+
+.messengerListText {
+  flex: 9;
+  /* font-size: 15px; */
+  font-weight: 500;
+}
+
+.messengerFeed {
+  flex: 5.5;
+  margin-top: 10px;
+}
+
+.messengerTopMid {
+  display: flex;
+  align-items: center;
+}
+
+.messengerTopInfo {
+  display: flex;
+  align-items: center;
+}
+
+.messengerInfoImg {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.messengerInfoText {
+  font-size: 16px;
+  font-weight: 500;
+}
+.messengerTopInfo {
+  flex: 9;
+}
+
+.messengerItems {
+  flex: 3;
+}
+
+.messengerRight {
+  flex: 3.5;
+}
